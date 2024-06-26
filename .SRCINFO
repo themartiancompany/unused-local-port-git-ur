@@ -1,0 +1,21 @@
+pkgbase = unused-local-port-git
+	pkgdesc = Returns an unused local port.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gf190fd0a5f29c2e31f0783ca97a4e6a55b4872f8
+	pkgrel = 1
+	url = https://github.com/themartiancompany/unused-local-port
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = libcrash-bash
+	depends = net-tools
+	provides = unused-local-port=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gf190fd0a5f29c2e31f0783ca97a4e6a55b4872f8
+	conflicts = unused-local-port
+	source = unused-local-port.tar.gz::https://github.com/themartiancompany/unused-local-port/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = unused-local-port-git
